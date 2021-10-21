@@ -15,10 +15,24 @@
         <div class="container">
             <section id="section-1">
                 <h2>Entre como participante</h2>
-                <form>
-                    <input type="text">
+                <form> <!-- formulário -->
+                    <label class="sr-only" for="room-id">Código da sala</label> <!-- acessibilidade para o input. Screen only esconde o label do navegador, mas fica visível para os motores de busca. -->
+                    <input type="text" id="room-id"> <!-- caixa de texto -->
                     <button>Entrar na sala</button>
                 </form>
+            </section>
+
+            <div class="separator">
+                <div></div>
+                <div>ou</div>
+                <div></div>
+            </div>
+
+            <section>
+                <h2>Crie sua própria sala de forma fácil</h2>
+                <a href="create-room.html">
+                    <img src="assets/users.svg" alt="Criar Sala">Criar Sala
+                </a>
             </section>
         </div>
     </main>
