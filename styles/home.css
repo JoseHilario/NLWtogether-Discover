@@ -18,6 +18,12 @@ header {
     background: url(/assets/home-bg-img.png) no-repeat top/contain; /* Não repetir. Alinhar ao topo e a caixa */
 }
 
+main {
+    grid-area: right;
+}
+
+
+
 
 
 
