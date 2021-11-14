@@ -20,6 +20,17 @@ header {
 
 main {
     grid-area: right;
+
+    display: flex;
+    align-items: center;
+}
+
+main .container {
+    width: min(36.3rem 100%);
+}
+
+main h2 {
+    font-family: 'Poppins', sans-serif;
 }
 
 
