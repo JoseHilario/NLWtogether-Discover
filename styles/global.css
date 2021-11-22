@@ -7,6 +7,8 @@
 }
 
 html {
+  overflow: hidden; 
+
   --black:#0D114F;
   --white:#FAFAFA;
   --red:#E83F5B;
