@@ -31,7 +31,7 @@ body {
   background: var(--background);
 }
 
-body, button, input, textarea {
+body, input, textarea {
   font-size: clamp(14px, 1.6rem, 2vw);
 
   font-family: 'Open Sans', sans-serif;
@@ -53,3 +53,29 @@ body, button, input, textarea {
   white-space:nowrap;
   border-width:0;
 }
+
+input, .button{
+  height: 5rem;
+  border-radius: 0.8rem;
+}
+
+.button {
+  font-family: 'Poppins';
+  font-weight: 500;
+  line-height: 0; /* Espaçamento entre linhas */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--blue);
+  color: var(--white); 
+
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(1.2);
+  transition:filter 0.2s
+}
+
