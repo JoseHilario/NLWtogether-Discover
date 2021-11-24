@@ -40,3 +40,8 @@ input {
   border: 0.2rem solid var(--grey-blue);
   padding: 0 1.6rem;
 }
+
+input, .button {
+  width: 100%;
+  margin-bottom: 1.8rem;
+}

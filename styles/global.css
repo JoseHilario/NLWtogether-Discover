@@ -66,16 +66,29 @@ input, .button{
 
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  background: var(--blue);
-  color: var(--white); 
+  justify-content: center; 
 
   cursor: pointer;
+}
+
+.button-1 {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.button-2 {
+  background: var(--white);
+  color: var(--blue);
+  border: solid 0.2rem var(--blue);
 }
 
 .button:hover {
   filter: brightness(1.2);
   transition:filter 0.2s
+}
+
+.button img {
+  margin-right: 1rem;
+  width: 2rem;
 }
 
