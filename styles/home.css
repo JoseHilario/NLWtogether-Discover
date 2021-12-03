@@ -12,7 +12,7 @@ header {
   grid-area: header;
   display: flex;
   align-items: center;
-  padding-left: 15rem;
+  padding-left: 9rem;
 }
 
 header img {
@@ -24,7 +24,7 @@ header img {
   grid-area: left;
 
   background: url(/assets/home-bg-img.svg) no-repeat top/contain; /* Não repetir. Alinhar ao topo e a caixa */
-  background-position-x: -0rem;
+  background-position-x: -7rem;
 }
 
 main {

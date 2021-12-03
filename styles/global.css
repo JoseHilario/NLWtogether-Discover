@@ -40,7 +40,7 @@ body, input, textarea {
 
 .content {
   width: 100%;
-  margin: 0 3rem 0 5rem; /* top, right, bottom and left */
+  margin: 0 auto; /* top, right, bottom and left */
 }
 
 .sr-only {
