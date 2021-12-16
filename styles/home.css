@@ -21,7 +21,6 @@ header img {
 
 main {
  display: flex;
- align-items: center;
  justify-content: center;
 }
 
@@ -36,14 +35,14 @@ main .container #section-1 {
 }
 
 #section-1 form {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
 .separator {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 1rem 0;
 }
 
 @media (min-width:1200px) {
