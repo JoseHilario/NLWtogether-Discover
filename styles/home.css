@@ -2,21 +2,21 @@
 }
 
 header {
-  height: 5rem;
+  height: 7rem;
   display: flex;
   align-items: center;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 header img {
-  width:10rem;
-  height:2.5rem;
+  width:15rem;
+  height:4rem;
 }
 
 #bg {
   background: url(/assets/home-bg-img.svg) no-repeat top/contain; /* Não repetir. Alinhar ao topo e a caixa*/
   height:25rem;
-  background-position-x:5.5rem;
+  background-position-x:12rem;
 }
 
 main {
