@@ -2,21 +2,21 @@
 }
 
 header {
-  height: 7rem;
+  height: 6.5rem;
   display: flex;
   align-items: center;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 header img {
-  width:15rem;
-  height:4rem;
+  width:14rem;
+  height:3.5rem;
 }
 
 #bg {
   background: url(/assets/home-bg-img.svg) no-repeat top/contain; /* Não repetir. Alinhar ao topo e a caixa*/
-  height:25rem;
-  background-position-x:12rem;
+  height:32rem;
+  background-position-x:10rem;
 }
 
 main {
@@ -32,17 +32,57 @@ main .container #section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 1rem;
 }
 
 #section-1 form {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .separator {
   display: flex;
-  justify-content: center;
-  margin: 1rem 0;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.separator div:nth-child(2) {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: var(--grey-blue);
+  padding: 0 1.35rem;
+}
+
+.separator div:nth-child(1), /* Seleciona os filhos da propriedade */
+.separator div:nth-child(3) {
+  width: 100%;
+  height: 1px;
+  background: var(--grey-blue);
+  
+}
+
+main h2{
+  font-family: 'Poppins', sans-serif;
+  color:var(--black);
+  font-size: clamp(10px, 4vw, 2.5rem);
+  margin-bottom: 1.5rem;
+}
+
+main #section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: 0.2rem solid var(--grey-blue);
+  padding: 0 1.6rem;
+}
+
+.button {
+  width: 100%;
 }
 
 @media (min-width:1200px) {
@@ -117,7 +157,7 @@ main .container #section-1 {
     line-height: 0;
   }
   
-  .separator div:nth-child(1), /* Seleciona os filhos da propriedade */
+  .separator div:nth-child(1),
   .separator div:nth-child(3) {
     width: 100%;
     height: 1px;
