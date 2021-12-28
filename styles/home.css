@@ -1,10 +1,14 @@
 .content {
 }
 
-header {
-  height: 6.5rem;
+/* ALIGN ITEMS */
+.flex {
   display: flex;
   align-items: center;
+}
+
+header {
+  height: 6.5rem;
   padding-left: 1.5rem;
 }
 
@@ -15,8 +19,8 @@ header img {
 
 #bg {
   background: url(/assets/home-bg-img.svg) no-repeat top/contain; /* Não repetir. Alinhar ao topo e a caixa*/
-  height:32rem;
-  background-position-x:10rem;
+  height:35rem;
+  background-position-x:7.5rem;
 }
 
 main {
@@ -29,22 +33,18 @@ main .container {
 }
 
 main .container #section-1 {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 #section-1 form {
   width: 100%;
-  display: flex;
-  align-items: center;
+  display: grid; /* Por algum motivo se tirar o grid gap, o input e buttom ficam pequenos*/
+  gap: 1rem;
 }
 
 .separator {
-  display: flex;
-  align-items: center;
-  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -70,19 +70,13 @@ main h2{
   margin-bottom: 1.5rem;
 }
 
-main #section-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 input {
   border: 0.2rem solid var(--grey-blue);
   padding: 0 1.6rem;
 }
 
-.button {
-  width: 100%;
+#section-2 {
+  margin-bottom: 2rem;
 }
 
 @media (min-width:1200px) {
