@@ -77,6 +77,20 @@ input, .button {
   background: var(--grey-blue);
 }
 
+/* Background balls */
+
+.ball {
+
+}
+
+.ball.top {
+
+}
+
+.ball.bottom {
+
+}
+
 
 
 
