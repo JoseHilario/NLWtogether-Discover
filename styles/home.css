@@ -1,6 +1,6 @@
 .content {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 11.4rem 1fr;
   grid-template-areas:
   'header header'
@@ -21,7 +21,7 @@ header img {
   
 #bg {
   grid-area: left;
-  
+  width: 68.9rem;
   background: url(/assets/home-bg-img.svg) no-repeat top/contain;
   background-position-x: 5rem;
   background-position-y: -1rem;
@@ -32,6 +32,7 @@ main {
       
   display: flex;
   align-items: center;
+  justify-content: center;
 }
   
 main .container {
@@ -80,15 +81,24 @@ input, .button {
 /* Background balls */
 
 .ball {
-
+  width: 21.2rem;
+  height: 21.2rem;
+  position: fixed;
+  background: var(--blue);
+  clip-path:circle();
+  opacity: 0.1;
 }
 
 .ball.top {
-
+  width: 63.3rem;
+  height: 63.3rem;
+  top: -43rem;
+  right: -46rem;
 }
 
 .ball.bottom {
-
+  bottom: -16rem;
+  right: -12rem;
 }
 
 
